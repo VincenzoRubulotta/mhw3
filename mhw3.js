@@ -486,7 +486,7 @@ function oauth2SignIn() {
   form.setAttribute('action', oauth2Endpoint);
 
   // Parameters to pass to OAuth 2.0 endpoint.
-  let params = {'client_id': '32997486243-e0e04lr6mvo79ffqkvjt1tp63js5dm6c.apps.googleusercontent.com',
+  let params = {'client_id': //'32997486243-e0e04lr6mvo79ffqkvjt1tp63js5dm6c.apps.googleusercontent.com',
                 'redirect_uri': 'http://127.0.0.1:5500/mhw3.html',
                 'scope': 'https://www.googleapis.com/auth/userinfo.profile',
                 'state': 'try_sample_request',
